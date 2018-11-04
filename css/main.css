@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;  
+}
+body, html {
+    padding: 0; 
+    margin: 0; 
+    border: 0; 
+}
+body a {
+    color: #fff; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    padding: 0px 20px; 
+    font-weight: bold; 
+}
+a.logo {
+    font-size: 24px; 
+}
+nav.main-nav {
+    height: 60px; 
+    width: 100%; 
+    background-color: crimson; 
+}
+.nav-content {
+    width: 90%; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 0 auto; 
+}
+.main {
+    display: flex; 
+    flex-direction: column; 
+}
+.characters {
+    position: static;  
+    margin: 0 auto; 
+    width: 90%; 
+    display: flex; 
+    justify-content: space-between;
+    border-top: 2px solid #eaeaea;
+}
+.karakter img {
+    width: 150px; 
+    height: 150px; 
+}
+.karakter p {
+    font-size: 18px;
+    font-weight: bold; 
+}
+.show-search {
+    width: 95%;  
+    margin: 0 auto; 
+    display: flex; 
+    flex-wrap: wrap; 
+    min-height: 300px; 
+}
+.searchChar {
+    margin: 10px 20px; 
+
+}
+.searchChar img{
+    width: 300px; 
+    height: 300px; 
+}
+.searchChar p {
+    font-size: 1.2em; 
+}
+#myBtn {
+    height: 50px; 
+}
